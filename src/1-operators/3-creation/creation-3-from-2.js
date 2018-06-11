@@ -1,0 +1,6 @@
+import { from } from 'rxjs'
+
+// emit result of promise
+const promiseSource = from(new Promise(resolve => resolve('Hello World!')))
+// output: 'Hello World'
+promiseSource.subscribe(val => console.log(val))
