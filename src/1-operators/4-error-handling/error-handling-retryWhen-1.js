@@ -1,3 +1,5 @@
+// https://www.learnrxjs.io/operators/error_handling/retrywhen.html
+
 import { interval, timer } from 'rxjs'
 import { retryWhen, map, tap, delayWhen } from 'rxjs/operators'
 
