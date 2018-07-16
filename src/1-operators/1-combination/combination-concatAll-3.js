@@ -17,4 +17,4 @@ const example = source.pipe(concatAll())
   obs3: 0 (complete)
 */
 
-const subscribe = example.subscribe(val => console.log(val))
+example.subscribe(val => console.log(val))

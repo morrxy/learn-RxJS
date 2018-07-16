@@ -12,6 +12,6 @@ const example = source.pipe(
   concatAll()
 )
 // output: 'Example with Promise 0', 'Example with Promise 1'...
-const subscribe = example.subscribe(val =>
-  console.log('Example with Promise:', val)
+example.subscribe(
+  val => console.log('Example with Promise:', val)
 )

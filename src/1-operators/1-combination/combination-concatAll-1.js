@@ -10,6 +10,6 @@ const example = source.pipe(
   concatAll()
 )
 // output: 'Example with Basic Observable 10', 'Example with Basic Observable 11'...
-example.subscribe(val =>
-  console.log('Example with Basic Observable:', val)
+example.subscribe(
+  val => console.log('Example with Basic Observable:', val)
 )
